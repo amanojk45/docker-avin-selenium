@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test2.1.4"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="78.253">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testApplyRest"
+                time="78.253"
+                classname="upgrade.automation.ApplyReset">
+            </testcase>
+</testsuite>

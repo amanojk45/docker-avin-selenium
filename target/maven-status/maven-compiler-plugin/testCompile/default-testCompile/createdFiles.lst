@@ -1,0 +1,9 @@
+upgrade\automation\UpgradeToFrom.class
+upgrade\helper\AuthHelper.class
+upgrade\automation\UpgradeTo.class
+upgrade\automation\ApplyReset.class
+TestNgRunner.class
+upgrade\automation\AddCredentials.class
+upgrade\automation\DowngradeFromTo.class
+upgrade\helper\LocatorHelper.class
+upgrade\ConstPath.class

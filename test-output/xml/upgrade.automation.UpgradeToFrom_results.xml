@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test2.1.4"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="109.135">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testUpgradeToFrom"
+                time="109.135"
+                classname="upgrade.automation.UpgradeToFrom">
+            </testcase>
+</testsuite>

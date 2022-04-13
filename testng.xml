@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="firmwareUpgrade">
+
+<!--- >  <test thread-count="10" name="Test1.0.2" preserve-order="true" >
+        <parameter name="firmwareVersion" value="1.0.2" />
+        <parameter name="cameraVersion" value="Camera12" />
+        <classes>
+            <class name="upgrade.automation.ApplyReset"/>
+            <class name="upgrade.automation.AddCredentials"/>
+            <class name="upgrade.automation.UpgradeToFrom"/>
+        </classes>
+    </test>
+    <test thread-count="10" name="Test1.1.0" preserve-order="true" >
+        <parameter name="firmwareVersion" value="1.1.0" />
+        <parameter name="cameraVersion" value="Camera12" />
+        <classes>
+            <class name="upgrade.automation.ApplyReset" />
+            <class name="upgrade.automation.AddCredentials"/>
+            <class name="upgrade.automation.UpgradeToFrom"/>
+        </classes>
+    </test>
+    <test thread-count="10" name="Test2.0.6" preserve-order="true" >
+        <parameter name="firmwareVersion" value="2.0.6" />
+        <parameter name="cameraVersion" value="Camera12" />
+        <classes>
+            <class name="upgrade.automation.ApplyReset" />
+            <class name="upgrade.automation.AddCredentials"/>
+            <class name="upgrade.automation.UpgradeToFrom"/>
+        </classes>
+    </test>
+    <test thread-count="10" name="Test2.0.7" preserve-order="true" >
+        <parameter name="firmwareVersion" value="2.0.7" />
+        <parameter name="cameraVersion" value="Camera12" />
+        <classes>
+            <class name="upgrade.automation.ApplyReset" />
+            <class name="upgrade.automation.AddCredentials"/>
+            <class name="upgrade.automation.UpgradeToFrom"/>
+        </classes>
+    </test><!-->
+    <test thread-count="10" name="Test2.1.4" preserve-order="true" >
+    <parameter name="firmwareVersion" value="2.1.4" />
+    <parameter name="cameraVersion" value="Camera12" />
+    <classes>
+        <class name="upgrade.automation.ApplyReset" />
+        <class name="upgrade.automation.AddCredentials"/>
+        <class name="upgrade.automation.UpgradeToFrom"/>
+    </classes>
+</test>
+</suite>

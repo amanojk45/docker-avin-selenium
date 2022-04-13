@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigated to device tab]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Maintenance/Support tab]]>
+    </line>
+    <line>
+      <![CDATA[Camera reset is completed]]>
+    </line>
+    <line>
+      <![CDATA[Added new username]]>
+    </line>
+    <line>
+      <![CDATA[Added new password]]>
+    </line>
+    <line>
+      <![CDATA[Added new confirmpassword]]>
+    </line>
+    <line>
+      <![CDATA[Password is set]]>
+    </line>
+    <line>
+      <![CDATA[New Credentials are added]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to device tab]]>
+    </line>
+    <line>
+      <![CDATA[Camera name is changed]]>
+    </line>
+    <line>
+      <![CDATA[Emulation mode is enabled]]>
+    </line>
+    <line>
+      <![CDATA[date/time is changed]]>
+    </line>
+    <line>
+      <![CDATA[Changed Date and time - NTP]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to video/audio tab]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to ImageSettings tab]]>
+    </line>
+    <line>
+      <![CDATA[Selected 50Hz ]]>
+    </line>
+    <line>
+      <![CDATA[HDR is off]]>
+    </line>
+    <line>
+      <![CDATA[Selected Motion]]>
+    </line>
+    <line>
+      <![CDATA[Selected Exposure Setting]]>
+    </line>
+    <line>
+      <![CDATA[Selected brightness- 50]]>
+    </line>
+    <line>
+      <![CDATA[Selected contrast- 9]]>
+    </line>
+    <line>
+      <![CDATA[Selected Sharpness- 10]]>
+    </line>
+    <line>
+      <![CDATA[Selected saturation- 8]]>
+    </line>
+    <line>
+      <![CDATA[Enable Wide Dynamic Range]]>
+    </line>
+    <line>
+      <![CDATA[WdrValue- 50]]>
+    </line>
+    <line>
+      <![CDATA[Camera mount position is set to Table]]>
+    </line>
+    <line>
+      <![CDATA[Rotate camera setting set to Invert]]>
+    </line>
+    <line>
+      <![CDATA[IR Cut Filter setting set to Night Mode]]>
+    </line>
+    <line>
+      <![CDATA[colour space setting set to BT709 FS]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to video/audio tab]]>
+    </line>
+    <line>
+      <![CDATA[Added ScreeCaptionName]]>
+    </line>
+    <line>
+      <![CDATA[Added timeFormat]]>
+    </line>
+    <line>
+      <![CDATA[Added dateFormat]]>
+    </line>
+    <line>
+      <![CDATA[Added FontSize]]>
+    </line>
+    <line>
+      <![CDATA[Added Text Colour]]>
+    </line>
+    <line>
+      <![CDATA[Added new overlay]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Global StreamLite Compression Settings tab]]>
+    </line>
+    <line>
+      <![CDATA[selected ColourMap]]>
+    </line>
+    <line>
+      <![CDATA[selected tracked objects]]>
+    </line>
+    <line>
+      <![CDATA[RectPercentage set to 50 ]]>
+    </line>
+    <line>
+      <![CDATA[RectPersistence set to 30 ]]>
+    </line>
+    <line>
+      <![CDATA[CenterDistance set to 15 ]]>
+    </line>
+    <line>
+      <![CDATA[ThresholdToMotion set to 15 ]]>
+    </line>
+    <line>
+      <![CDATA[ThresholdToNoMotion set to 15 ]]>
+    </line>
+    <line>
+      <![CDATA[Delay set to 15 ]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Global Settings tab]]>
+    </line>
+    <line>
+      <![CDATA[sensitivity set to 15 ]]>
+    </line>
+    <line>
+      <![CDATA[threshold set to 15 ]]>
+    </line>
+    <line>
+      <![CDATA[latency set to 15 ]]>
+    </line>
+    <line>
+      <![CDATA[persistance set to 1000 ]]>
+    </line>
+    <line>
+      <![CDATA[height set to 15 ]]>
+    </line>
+    <line>
+      <![CDATA[New user is added]]>
+    </line>
+    <line>
+      <![CDATA[Navigatied to Device tab]]>
+    </line>
+  </reporter-output>
+  <suite name="firmwareUpgrade" duration-ms="193759" started-at="2022-04-12T12:40:48 IST" finished-at="2022-04-12T12:44:02 IST">
+    <groups>
+    </groups>
+    <test name="Test2.1.4" duration-ms="193759" started-at="2022-04-12T12:40:48 IST" finished-at="2022-04-12T12:44:02 IST">
+      <class name="upgrade.automation.AddCredentials">
+        <test-method status="PASS" signature="testAddCredentials(java.lang.String, java.lang.String)[pri:0, instance:upgrade.automation.AddCredentials@2d928643]" name="testAddCredentials" duration-ms="6333" started-at="2022-04-12T12:42:07 IST" finished-at="2022-04-12T12:42:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.1.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Camera12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Added new username]]>
+            </line>
+            <line>
+              <![CDATA[Added new password]]>
+            </line>
+            <line>
+              <![CDATA[Added new confirmpassword]]>
+            </line>
+            <line>
+              <![CDATA[Password is set]]>
+            </line>
+            <line>
+              <![CDATA[New Credentials are added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddCredentials -->
+      </class> <!-- upgrade.automation.AddCredentials -->
+      <class name="upgrade.automation.ApplyReset">
+        <test-method status="PASS" signature="testApplyRest(java.lang.String, java.lang.String)[pri:0, instance:upgrade.automation.ApplyReset@6adede5]" name="testApplyRest" duration-ms="78253" started-at="2022-04-12T12:40:48 IST" finished-at="2022-04-12T12:42:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.1.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Camera12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to device tab]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Maintenance/Support tab]]>
+            </line>
+            <line>
+              <![CDATA[Camera reset is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testApplyRest -->
+      </class> <!-- upgrade.automation.ApplyReset -->
+      <class name="upgrade.automation.UpgradeToFrom">
+        <test-method status="PASS" signature="testUpgradeToFrom(java.lang.String, java.lang.String)[pri:0, instance:upgrade.automation.UpgradeToFrom@5025a98f]" name="testUpgradeToFrom" duration-ms="109135" started-at="2022-04-12T12:42:13 IST" finished-at="2022-04-12T12:44:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.1.4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Camera12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to device tab]]>
+            </line>
+            <line>
+              <![CDATA[Camera name is changed]]>
+            </line>
+            <line>
+              <![CDATA[Emulation mode is enabled]]>
+            </line>
+            <line>
+              <![CDATA[date/time is changed]]>
+            </line>
+            <line>
+              <![CDATA[Changed Date and time - NTP]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to video/audio tab]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to ImageSettings tab]]>
+            </line>
+            <line>
+              <![CDATA[Selected 50Hz ]]>
+            </line>
+            <line>
+              <![CDATA[HDR is off]]>
+            </line>
+            <line>
+              <![CDATA[Selected Motion]]>
+            </line>
+            <line>
+              <![CDATA[Selected Exposure Setting]]>
+            </line>
+            <line>
+              <![CDATA[Selected brightness- 50]]>
+            </line>
+            <line>
+              <![CDATA[Selected contrast- 9]]>
+            </line>
+            <line>
+              <![CDATA[Selected Sharpness- 10]]>
+            </line>
+            <line>
+              <![CDATA[Selected saturation- 8]]>
+            </line>
+            <line>
+              <![CDATA[Enable Wide Dynamic Range]]>
+            </line>
+            <line>
+              <![CDATA[WdrValue- 50]]>
+            </line>
+            <line>
+              <![CDATA[Camera mount position is set to Table]]>
+            </line>
+            <line>
+              <![CDATA[Rotate camera setting set to Invert]]>
+            </line>
+            <line>
+              <![CDATA[IR Cut Filter setting set to Night Mode]]>
+            </line>
+            <line>
+              <![CDATA[colour space setting set to BT709 FS]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to video/audio tab]]>
+            </line>
+            <line>
+              <![CDATA[Added ScreeCaptionName]]>
+            </line>
+            <line>
+              <![CDATA[Added timeFormat]]>
+            </line>
+            <line>
+              <![CDATA[Added dateFormat]]>
+            </line>
+            <line>
+              <![CDATA[Added FontSize]]>
+            </line>
+            <line>
+              <![CDATA[Added Text Colour]]>
+            </line>
+            <line>
+              <![CDATA[Added new overlay]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Global StreamLite Compression Settings tab]]>
+            </line>
+            <line>
+              <![CDATA[selected ColourMap]]>
+            </line>
+            <line>
+              <![CDATA[selected tracked objects]]>
+            </line>
+            <line>
+              <![CDATA[RectPercentage set to 50 ]]>
+            </line>
+            <line>
+              <![CDATA[RectPersistence set to 30 ]]>
+            </line>
+            <line>
+              <![CDATA[CenterDistance set to 15 ]]>
+            </line>
+            <line>
+              <![CDATA[ThresholdToMotion set to 15 ]]>
+            </line>
+            <line>
+              <![CDATA[ThresholdToNoMotion set to 15 ]]>
+            </line>
+            <line>
+              <![CDATA[Delay set to 15 ]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Global Settings tab]]>
+            </line>
+            <line>
+              <![CDATA[sensitivity set to 15 ]]>
+            </line>
+            <line>
+              <![CDATA[threshold set to 15 ]]>
+            </line>
+            <line>
+              <![CDATA[latency set to 15 ]]>
+            </line>
+            <line>
+              <![CDATA[persistance set to 1000 ]]>
+            </line>
+            <line>
+              <![CDATA[height set to 15 ]]>
+            </line>
+            <line>
+              <![CDATA[New user is added]]>
+            </line>
+            <line>
+              <![CDATA[Navigatied to Device tab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUpgradeToFrom -->
+      </class> <!-- upgrade.automation.UpgradeToFrom -->
+    </test> <!-- Test2.1.4 -->
+  </suite> <!-- firmwareUpgrade -->
+</testng-results>

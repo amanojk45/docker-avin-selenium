@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-firmwareUpgrade">
+              <span class="suite-name border-passed">firmwareUpgrade</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-firmwareUpgrade">
+                    <span>D:\upgrade\there-should-be-only-one-updgr\ccamera\src\test\testframework\firmwareUpgrade\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-firmwareUpgrade">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-firmwareUpgrade">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-firmwareUpgrade">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-firmwareUpgrade">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-firmwareUpgrade">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-firmwareUpgrade">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-firmwareUpgrade" class="hide-methods passed suite-firmwareUpgrade"> (hide)</a> <!-- hide-methods passed suite-firmwareUpgrade -->
+                      <a href="#" panel-name="suite-firmwareUpgrade" class="show-methods passed suite-firmwareUpgrade"> (show)</a> <!-- show-methods passed suite-firmwareUpgrade -->
+                    </span>
+                    <div class="method-list-content passed suite-firmwareUpgrade">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-firmwareUpgrade" title="upgrade.automation.AddCredentials" hash-for-method="testAddCredentials(2.1.4, Camera12)">testAddCredentials(2.1.4, Camera12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-firmwareUpgrade" title="upgrade.automation.ApplyReset" hash-for-method="testApplyRest(2.1.4, Camera12)">testApplyRest(2.1.4, Camera12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-firmwareUpgrade" title="upgrade.automation.UpgradeToFrom" hash-for-method="testUpgradeToFrom(2.1.4, Camera12)">testUpgradeToFrom(2.1.4, Camera12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-firmwareUpgrade -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-firmwareUpgrade" class="panel firmwareUpgrade">
+          <div class="suite-firmwareUpgrade-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">upgrade.automation.ApplyReset</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApplyRest(2.1.4, Camera12)">
+                  </a> <!-- testApplyRest(2.1.4, Camera12) -->
+                  <span class="method-name">testApplyRest</span>
+                  <span class="parameters">(2.1.4, Camera12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-firmwareUpgrade-class-passed -->
+          <div class="suite-firmwareUpgrade-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">upgrade.automation.AddCredentials</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddCredentials(2.1.4, Camera12)">
+                  </a> <!-- testAddCredentials(2.1.4, Camera12) -->
+                  <span class="method-name">testAddCredentials</span>
+                  <span class="parameters">(2.1.4, Camera12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-firmwareUpgrade-class-passed -->
+          <div class="suite-firmwareUpgrade-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">upgrade.automation.UpgradeToFrom</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpgradeToFrom(2.1.4, Camera12)">
+                  </a> <!-- testUpgradeToFrom(2.1.4, Camera12) -->
+                  <span class="method-name">testUpgradeToFrom</span>
+                  <span class="parameters">(2.1.4, Camera12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-firmwareUpgrade-class-passed -->
+        </div> <!-- panel firmwareUpgrade -->
+        <div panel-name="test-xml-firmwareUpgrade" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\upgrade\there-should-be-only-one-updgr\ccamera\src\test\testframework\firmwareUpgrade\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;firmwareUpgrade&quot;&gt;
+  &lt;test thread-count=&quot;10&quot; verbose=&quot;0&quot; name=&quot;Test2.1.4&quot;&gt;
+    &lt;parameter name=&quot;firmwareVersion&quot; value=&quot;2.1.4&quot;/&gt;
+    &lt;parameter name=&quot;cameraVersion&quot; value=&quot;Camera12&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;upgrade.automation.ApplyReset&quot;/&gt;
+      &lt;class name=&quot;upgrade.automation.AddCredentials&quot;/&gt;
+      &lt;class name=&quot;upgrade.automation.UpgradeToFrom&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2.1.4 --&gt;
+&lt;/suite&gt; &lt;!-- firmwareUpgrade --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-firmwareUpgrade" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for firmwareUpgrade</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test2.1.4 (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-firmwareUpgrade" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for firmwareUpgrade</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-firmwareUpgrade" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for firmwareUpgrade</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_firmwareUpgrade');
+function tableData_firmwareUpgrade() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testUpgradeToFrom')
+data.setCell(0, 2, 'upgrade.automation.UpgradeToFrom')
+data.setCell(0, 3, 109135);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testApplyRest')
+data.setCell(1, 2, 'upgrade.automation.ApplyReset')
+data.setCell(1, 3, 78253);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testAddCredentials')
+data.setCell(2, 2, 'upgrade.automation.AddCredentials')
+data.setCell(2, 3, 6333);
+window.suiteTableData['firmwareUpgrade']= { tableData: data, tableDiv: 'times-div-firmwareUpgrade'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-firmwareUpgrade">
+              </div> <!-- times-div-firmwareUpgrade -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-firmwareUpgrade" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for firmwareUpgrade</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAddCredentials(2.1.4, Camera12)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Added new username</span>
+                <span class="reporter-method-output">Added new password</span>
+                <span class="reporter-method-output">Added new confirmpassword</span>
+                <span class="reporter-method-output">Password is set</span>
+                <span class="reporter-method-output">New Credentials are added</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testUpgradeToFrom(2.1.4, Camera12)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigated to device tab</span>
+                <span class="reporter-method-output">Camera name is changed</span>
+                <span class="reporter-method-output">Emulation mode is enabled</span>
+                <span class="reporter-method-output">date/time is changed</span>
+                <span class="reporter-method-output">Changed Date and time - NTP</span>
+                <span class="reporter-method-output">Navigated to video/audio tab</span>
+                <span class="reporter-method-output">Navigated to ImageSettings tab</span>
+                <span class="reporter-method-output">Selected 50Hz </span>
+                <span class="reporter-method-output">HDR is off</span>
+                <span class="reporter-method-output">Selected Motion</span>
+                <span class="reporter-method-output">Selected Exposure Setting</span>
+                <span class="reporter-method-output">Selected brightness- 50</span>
+                <span class="reporter-method-output">Selected contrast- 9</span>
+                <span class="reporter-method-output">Selected Sharpness- 10</span>
+                <span class="reporter-method-output">Selected saturation- 8</span>
+                <span class="reporter-method-output">Enable Wide Dynamic Range</span>
+                <span class="reporter-method-output">WdrValue- 50</span>
+                <span class="reporter-method-output">Camera mount position is set to Table</span>
+                <span class="reporter-method-output">Rotate camera setting set to Invert</span>
+                <span class="reporter-method-output">IR Cut Filter setting set to Night Mode</span>
+                <span class="reporter-method-output">colour space setting set to BT709 FS</span>
+                <span class="reporter-method-output">Navigated to video/audio tab</span>
+                <span class="reporter-method-output">Added ScreeCaptionName</span>
+                <span class="reporter-method-output">Added timeFormat</span>
+                <span class="reporter-method-output">Added dateFormat</span>
+                <span class="reporter-method-output">Added FontSize</span>
+                <span class="reporter-method-output">Added Text Colour</span>
+                <span class="reporter-method-output">Added new overlay</span>
+                <span class="reporter-method-output">Navigated to Global StreamLite Compression Settings tab</span>
+                <span class="reporter-method-output">selected ColourMap</span>
+                <span class="reporter-method-output">selected tracked objects</span>
+                <span class="reporter-method-output">RectPercentage set to 50 </span>
+                <span class="reporter-method-output">RectPersistence set to 30 </span>
+                <span class="reporter-method-output">CenterDistance set to 15 </span>
+                <span class="reporter-method-output">ThresholdToMotion set to 15 </span>
+                <span class="reporter-method-output">ThresholdToNoMotion set to 15 </span>
+                <span class="reporter-method-output">Delay set to 15 </span>
+                <span class="reporter-method-output">Navigated to Global Settings tab</span>
+                <span class="reporter-method-output">sensitivity set to 15 </span>
+                <span class="reporter-method-output">threshold set to 15 </span>
+                <span class="reporter-method-output">latency set to 15 </span>
+                <span class="reporter-method-output">persistance set to 1000 </span>
+                <span class="reporter-method-output">height set to 15 </span>
+                <span class="reporter-method-output">New user is added</span>
+                <span class="reporter-method-output">Navigatied to Device tab</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testApplyRest(2.1.4, Camera12)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigated to device tab</span>
+                <span class="reporter-method-output">Navigated to Maintenance/Support tab</span>
+                <span class="reporter-method-output">Camera reset is completed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-firmwareUpgrade" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-firmwareUpgrade" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">upgrade.automation.ApplyReset</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testApplyRest(2.1.4, Camera12)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">upgrade.automation.AddCredentials</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddCredentials(2.1.4, Camera12)</span>
+                <span class="method-start">78260 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">upgrade.automation.UpgradeToFrom</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUpgradeToFrom(2.1.4, Camera12)</span>
+                <span class="method-start">84594 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
