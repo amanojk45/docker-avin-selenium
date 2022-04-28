@@ -18,3 +18,17 @@ The project is about automating the multiple firmwares in order to test firmware
 5. C-Series_2.1.4
 6. C-Series_2.1.5
 
+
+
+
+
+https://hub.docker.com/r/markhobson/maven-chrome/
+
+
+https://stackoverflow.com/questions/58527079/headless-chrome-with-selenium-and-java-in-a-docker-container
+
+
+https://medium.com/slalom-technology/web-automation-how-to-set-up-selenium-so-that-it-runs-on-your-computer-docker-containers-and-6c438becd912
+
+
+https://www.youtube.com/watch?v=NLlszYXqKMI
