@@ -37,3 +37,34 @@ https://www.youtube.com/watch?v=NLlszYXqKMI
 
 
 https://medium.com/@ahamedabdulrahman/dockerize-selenium-java-project-and-run-selenium-scripts-within-docker-container-c2603d1bac3f (exact)
+
+
+
+package  docker;
+
+import java.net.MalformedURLException;
+
+import java.net.URL;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class Chrome {
+
+    @TestNG
+    public static void main(String[] args) throws MalformedURLException {
+
+        DesiredCapabilities dc =DesiredCapabilities.Chrome();
+
+        URL url=new URL("http://localhost:4444/wd/hub");
+
+        RemoteWebDriver drive=new RemoteWebDriver(url,dc);
+
+        driver.get("");
+
+        System.out.println("Title of page:"+driver.getTitle());
+
+        driver.quit();
+    }
+}
